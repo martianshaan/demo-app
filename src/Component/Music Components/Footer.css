@@ -1,0 +1,29 @@
+.footer{
+    background-color: rgba(245,245,255,255);
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    height: 65px;
+    width: 80%;
+    padding: 20px;
+}
+.footer_left{
+    flex:0.3;
+    justify-content: space-between;
+}
+.footer__grey{
+    color: rgb(206, 206, 206);
+}
+.footer_cenetr{
+    flex:0.4;
+    padding:0 100px;
+}
+
+.footer__icon:hover:hover,.footer__grey:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+}
+
+.footer_left{
+    flex:0.3
+}
